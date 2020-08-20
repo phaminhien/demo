@@ -1,0 +1,129 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+    color: #33997b;
+}
+
+.navbar-custom {
+    background-color: #d1edf7;
+}
+
+.navbar-scrolled {
+    opacity: 0.9;
+    background-color: #f9f9f9 ;
+}
+
+.nav-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #33997b;
+}
+
+header {
+    background-color: #d1edf7;
+    color: #33997b;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header h1 {
+    padding-top: 180px;
+    padding-bottom: 80px;
+    font-family: 'Sacramento', cursive;
+    font-size: 6.9rem;
+}
+
+#right-cloud {
+    position: absolute;
+    top: 160px;
+    right: 200px;
+}
+
+#left-cloud {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+
+#about .container {
+    width: 25%;
+}
+
+footer {
+    background-color: #d1edf7;
+}
+
+@media only screen and (max-width: 1200px) {
+    #right-cloud {
+        right: 100px;
+    }
+    
+    #left-cloud {
+        left: 100px;
+    }
+
+    #about .container {
+        width: 30%;
+    }
+}
+ 
+@media only screen and (max-width: 1023px) {
+    #right-cloud {
+        right: 20px;
+    }
+    
+    #left-cloud {
+        left: 20px;
+    }
+
+    #about .container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #right-cloud {
+        right: -30px;
+    }
+    
+    #left-cloud {
+        left: -20px;
+    }
+
+    header h1 {
+        font-size: 5.7rem;
+    }
+
+    #about .container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #right-cloud {
+        top: 120px;
+        right: -30px;
+        width: 120px;
+    }
+    
+    #left-cloud {
+        top: 230px;
+        left: -20px;
+        width: 90px;
+    }
+
+    header h1 {
+        padding-top: 160px;
+        font-size: 3.8rem;
+    }
+
+    #about .container {
+        width: 100%;
+    }
+}
