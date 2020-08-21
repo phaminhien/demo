@@ -33,8 +33,8 @@ header {
 }
 
 header h1 {
-    padding-top: 180px;
-    padding-bottom: 80px;
+    padding-top: 220px;
+    padding-bottom: 120px;
     font-family: 'Sacramento', cursive;
     font-size: 6.9rem;
 }
@@ -42,17 +42,13 @@ header h1 {
 #right-cloud {
     position: absolute;
     top: 160px;
-    right: 200px;
+    right: 150px;
 }
 
 #left-cloud {
     position: absolute;
-    top: 220px;
-    left: 200px;
-}
-
-#about .container {
-    width: 25%;
+    top: 310px;
+    left: 150px;
 }
 
 footer {
@@ -61,69 +57,54 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     #right-cloud {
-        right: 100px;
+        right: 50px;
     }
     
     #left-cloud {
-        left: 100px;
-    }
-
-    #about .container {
-        width: 30%;
+        left: 50px;
     }
 }
  
 @media only screen and (max-width: 1023px) {
     #right-cloud {
-        right: 20px;
+        right: -50px;
     }
     
     #left-cloud {
-        left: 20px;
-    }
-
-    #about .container {
-        width: 40%;
+        left: -50px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     #right-cloud {
-        right: -30px;
+        right: -80px;
     }
     
     #left-cloud {
-        left: -20px;
+        left: -70px;
     }
 
     header h1 {
         font-size: 5.7rem;
     }
-
-    #about .container {
-        width: 50%;
-    }
 }
 
 @media only screen and (max-width: 480px) {
     #right-cloud {
-        top: 120px;
-        right: -30px;
+        top: 80px;
+        right: -55px;
         width: 120px;
     }
     
     #left-cloud {
-        top: 230px;
-        left: -20px;
+        top: 190px;
+        left: -40px;
         width: 90px;
     }
 
     header h1 {
-        padding-top: 160px;
+        padding-top: 120px;
+        padding-bottom: 80px;
         font-size: 3.8rem;
-    }
-
-    #about .container {
-        width: 100%;
     }
 }
